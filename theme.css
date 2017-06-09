@@ -1,1 +1,12 @@
-body { background-color: #9D9DBD }
+body { 
+    background-color: #d3d3fe; 
+}
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
