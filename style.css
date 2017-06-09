@@ -11,17 +11,24 @@ body {
 }
 
 .loader {
-    border: 4px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid blue;
-    border-right: 16px solid green;
-    border-bottom: 16px solid red;
+    border-left: 16px solid #ffa700; /* Light grey */
+    border-top: 16px solid #008744;
+    border-right: 16px solid #0057e7;
+    border-bottom: 16px solid #d62d20;
     border-radius: 50%;
     width: 100%;
     height: 100%;
-    animation: spin 0.5s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.content{
+    width: auto;
+    height: 300px;
+    margin: auto;
+    background-color: whitesmoke;
 }
